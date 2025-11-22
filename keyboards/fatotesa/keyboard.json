@@ -12,13 +12,15 @@
         "nkro": true,
         "caps_word": true
     },
-    "encoder": {
-        "rotary": [
-            { "pin_a": "D1", "pin_b": "D0" , "resolution": 2}
-        ]
-    },
     "split": {
         "enabled": true,
+        "encoder": {
+            "right": {
+                "rotary": [
+                    { "pin_a": "D1", "pin_b": "D0", "resolution": 2 }
+                ]
+            }
+        },
         "serial": {
             "pin": "D2"
         },
